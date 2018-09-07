@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/order/order",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#3190e8",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar_food.png",
+        "selectedIconPath": "static/images/tabbar_food_active.png",
+        "text": "外卖"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/images/tabbar_search.png",
+        "selectedIconPath": "static/images/tabbar_search_active.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/images/tabbar_order.png",
+        "selectedIconPath": "static/images/tabbar_order_active.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/images/tabbar_me.png",
+        "selectedIconPath": "static/images/tabbar_me_active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
