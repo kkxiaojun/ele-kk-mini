@@ -34,6 +34,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    ak: '7ioNeGNj9PXP9T2UpFW0UhB1DBOM4DwR'
   }
 })
