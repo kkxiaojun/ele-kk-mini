@@ -3,7 +3,6 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/search/search",
-    "pages/order/order",
     "pages/profile/profile"
   ],
   "window": {
@@ -29,12 +28,6 @@
         "iconPath": "static/images/tabbar_search.png",
         "selectedIconPath": "static/images/tabbar_search_active.png",
         "text": "搜索"
-      },
-      {
-        "pagePath": "pages/order/order",
-        "iconPath": "static/images/tabbar_order.png",
-        "selectedIconPath": "static/images/tabbar_order_active.png",
-        "text": "订单"
       },
       {
         "pagePath": "pages/profile/profile",
